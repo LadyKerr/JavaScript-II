@@ -1,6 +1,22 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function island() {
+  const islandName = "Jamaica";
+  console.log(`${islandName} is amazing!`);
 
+  function parrish() {
+    const islandCapital = "Kingston";
+    console.log(`The capital of Jamaica is ${islandCapital}.`);
+
+    function town() {
+      const townName = "Port Royal";
+      console.log(`${townName} has a deep history in Jamaica`);
+    }// town ends
+    town();
+  }// parrish ends
+  parrish();
+} //island ends
+island();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
