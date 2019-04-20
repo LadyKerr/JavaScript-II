@@ -85,6 +85,9 @@ contains('Notebook', items, function(check) {
 // removeDuplicates removes all duplicate values from the given array.
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
+  // Use .indexOf() method
 function removeDuplicates(array, cb) {
-  
+  //return cb(array.indexof());
 }
+
+
